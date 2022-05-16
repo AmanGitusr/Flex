@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    flex:orientation="vertical"
+    xmlns:flex="http://schemas.android.com/apk/res/android"
+    flex:layout_width="match_parent"
+    flex:layout_height="match_parent"
+    flex:background="@color/black"
+    >
+    <ImageView
+        flex:layout_width="250dp"
+        flex:layout_height="100dp"
+        flex:src="@drawable/img2"
+        flex:layout_centerHorizontal="true"
+        flex:layout_marginTop="100dp"
+        flex:id="@+id/i1"
+        >
+    </ImageView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        flex:layout_width="50dp"
+        flex:layout_height="60dp"
+        flex:layout_below="@+id/i1"
+        flex:layout_marginTop="15dp"
+        flex:layout_alignParentStart="true"
+        flex:layout_alignParentEnd="true"
+        flex:layout_marginStart="10dp"
+        flex:layout_marginEnd="10dp"
+        flex:text="@string/b1"
+        flex:id="@+id/b1"
+
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        flex:layout_width="50dp"
+        flex:layout_height="60dp"
+        flex:layout_below="@+id/i1"
+        flex:layout_marginTop="73dp"
+        flex:layout_alignParentStart="true"
+        flex:layout_alignParentEnd="true"
+        flex:layout_marginStart="10dp"
+        flex:layout_marginEnd="10dp"
+        flex:text="@string/b2"
+        flex:id="@+id/b2"
+
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        flex:layout_width="50dp"
+        flex:layout_height="60dp"
+        flex:layout_below="@+id/i1"
+        flex:layout_alignParentStart="true"
+        flex:layout_alignParentEnd="true"
+        flex:layout_marginStart="10dp"
+        flex:layout_marginTop="130dp"
+        flex:layout_marginEnd="10dp"
+        flex:text="@string/b3"
+        flex:id="@+id/b3"
+      >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="appname">Flex</string>
+    <string name="b1">UserName</string>
+    <string name="b2">LogIn</string>
+    <string name="b3">SignUp</string>
+    <string name="b4">Next_Page</string>
+    <string name="b5">Thanks_For_Visiting</string>
+    <string name="b6">Go_Back_To_Home_Page</string>
+</resources>

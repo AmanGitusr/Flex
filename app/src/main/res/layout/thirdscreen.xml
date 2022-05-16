@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    flex:orientation="vertical"
+    xmlns:flex="http://schemas.android.com/apk/res/android"
+    flex:layout_width="match_parent"
+    flex:layout_height="match_parent"
+    flex:background="@color/black">
+    <androidx.appcompat.widget.AppCompatButton
+        flex:layout_width="50dp"
+        flex:layout_height="60dp"
+        flex:layout_marginTop="250dp"
+        flex:layout_alignParentStart="true"
+        flex:layout_alignParentEnd="true"
+        flex:layout_marginStart="10dp"
+        flex:layout_marginEnd="10dp"
+        flex:text="@string/b5"
+        flex:id="@+id/b5"
+        flex:background="@color/purple_200"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        flex:layout_width="800dp"
+        flex:layout_height="60dp"
+        flex:layout_marginTop="680dp"
+        flex:layout_alignParentStart="true"
+        flex:layout_alignParentEnd="true"
+        flex:layout_marginStart="0dp"
+        flex:layout_marginEnd="0dp"
+        flex:text="@string/b6"
+        flex:id="@+id/b6"
+        flex:background="@color/purple_200"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+</RelativeLayout>
